@@ -206,3 +206,56 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+/* achivement section */
+.achivements{
+    width: 60%;
+    height: 188px;
+    margin: 0 auto;
+    border-radius: 9999px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #ECDAC4;
+    /* border: 1px solid; */
+}
+
+.item{
+    width: 23.333%;
+    height: 140px;
+    align-content: center;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.achivement-icon{
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 100%;
+}
+
+.achivement-icon img{
+    position:absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+
+}
+
+.achivement-scale span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.achivement-para p{
+    font-size: 1rem;
+    color: #363031;
+}

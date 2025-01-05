@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500;700;900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+.container{
+    width: 100%;
+    height: 1721px;
+    font-family: "poppins", sans-serif;
+    /* border: 1px solid; */
+}
+
+/* hero section  */
+.hero-section{
+    width: 83.09%;
+    height: 592px;
+    margin: 64px auto;
+    margin-bottom: 152.52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+/* left side hero wrapper */
+.left-hero-wrapper{
+    width: 38.78%;
+    height: 466px;
+    /* border: 1px solid */
+}
+
+.heading{
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.heading h1{
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 120%;
+    color: #363031;
+}
+
+.para{
+    width: 88.80%;
+    margin-top: 2rem;
+    /* border: 1px solid; */
+}
+
+.para p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #363031;
+}
+
+.explore-btn{
+    width: 11.18rem;
+    height: 3.75rem;
+    border-radius: 9999px;
+    margin-top: 2rem;
+    border: none;
+}
+
+.explore-btn .btn{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    line-height: 8%;
+    border-radius: 9999px;
+    color: #FFFFFF;
+    background-color: #A36A4F;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: #A36A4F;
+    background-color: #FFFFFF;
+    border: 2px solid #A36A4F;
+}
+
+/* right side hero wrapper */
+.right-hero-wrapper{
+    width: 49.51%;
+    height: 592.48px;
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.big-image{
+    width: 74.26%;
+    height: 440px;
+    position: absolute;
+    left: 0;
+    border-radius: 100%;
+    /* border: 1px solid; */
+}
+
+.big-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.small-image{
+    width: 52.66%;
+    height: 312px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    /* border: 1px solid; */
+}
+
+.small-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+/* hero section ends */

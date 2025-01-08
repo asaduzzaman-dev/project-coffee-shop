@@ -1,0 +1,143 @@
+/* Small devices (≥576px and <768px) */
+@media only screen and (min-width: 375px) and (max-width: 555.99px) {
+    .container {
+        width: 100%;
+        height: 667px;
+    }
+
+    .hero-section {
+        width: 90%;
+        height: 50%;
+        margin: 10px auto;
+        margin-bottom: 10%;
+        /* border: 1px solid; */
+    }
+
+    .left-hero-wrapper {
+        width: 45%;
+        height: 80%;
+        /* border: 1px solid; */
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 1.125rem;
+
+    }
+
+    .para {
+        width: 95%;
+        margin-top: 0.625rem;
+        /* border: 1px solid; */
+    }
+
+    .para p {
+        font-size: 1rem;
+
+    }
+
+    .explore-btn {
+        width: 3.5rem;
+        height: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .explore-btn .btn {
+        font-size: 0.625rem;
+        line-height: 0%;
+
+    }
+
+    /* right side hero wrapper */
+    .right-hero-wrapper {
+        margin-right: 10%;
+        width: 140px;
+        height: 140px;
+        /* border: 1px solid; */
+    }
+
+    .achivements {
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100px;
+        gap: 1rem;
+        /* border: 1px solid; */
+    }
+
+    .item {
+        width: 30%;
+        height: 83px;
+        align-content: center;
+        text-align: center;
+        /* border: 1px solid; */
+    }
+
+    .achivement-icon {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .achivement-icon img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .achivement-scale span {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .achivement-para p {
+        font-size: 0.625rem;
+        color: #363031;
+    }
+
+    .card-section {
+        height: 3000px;
+    }
+
+    .coffee-card-wrapper {
+        margin: 40px auto;
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+    }
+
+    .Card {
+        width: 100%;
+        height: 300PX;
+    }
+
+    .Card h3 {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+    }
+
+    .Card-1 {
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+
+    .Card-9 {
+        height: 200px;
+        margin-top: 1rem;
+    }
+
+    .Card .underline {
+        width: 50%;
+        height: 6px;
+        margin-top: 1rem auto;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        background-color: #fff;
+    }
+}
